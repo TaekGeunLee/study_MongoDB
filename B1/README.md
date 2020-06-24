@@ -9,7 +9,7 @@
 * [2.1](https://github.com/TaekGeunLee/study_MongoDB/tree/master/B1/4) : 컬렉션과 데이터베이스 더 알아보기
 * [2.2](https://github.com/TaekGeunLee/study_MongoDB/tree/master/B1/5) : 도큐먼트 생성(create) 하기
 * [2.3](https://github.com/TaekGeunLee/study_MongoDB/tree/master/B1/6) : 도큐먼트 조회(read) 하기
-
+* [2.4](https://github.com/TaekGeunLee/study_MongoDB/tree/master/B1/7) : 도큐먼트 수정(update) 하기
 
 
 
