@@ -12,6 +12,13 @@
 * [2.4](https://github.com/TaekGeunLee/study_MongoDB/tree/master/B1/7) : 도큐먼트 수정(update) 하기
 * [2.5](https://github.com/TaekGeunLee/study_MongoDB/tree/master/B1/8) : 도큐먼트 제거(delete) 하기
 
+### Ch3. 쿼리 작성하기
+* [3.1](https://github.com/TaekGeunLee/study_MongoDB/tree/master/B1/9) : 쿼리의 구조
+
+Ch3. 부터는 교재 실습파일을 사용한다.
+[다음 페이지](https://github.com/Karoid/MongoDB_tutorials) 에서 실습파일을 다운로드 받을 것.
+다운 받은 뒤 가장 내부의 파일의 install 파일을 실행합니다.
+
 
 
 
