@@ -11,9 +11,11 @@
 * [2.3](https://github.com/TaekGeunLee/study_MongoDB/tree/master/B1/6) : 도큐먼트 조회(read) 하기
 * [2.4](https://github.com/TaekGeunLee/study_MongoDB/tree/master/B1/7) : 도큐먼트 수정(update) 하기
 * [2.5](https://github.com/TaekGeunLee/study_MongoDB/tree/master/B1/8) : 도큐먼트 제거(delete) 하기
+* [2.6](https://github.com/TaekGeunLee/study_MongoDB/tree/master/B1/11) : 트랜잭션(transaction)
 
 ### Ch3. 쿼리 작성하기
 * [3.1](https://github.com/TaekGeunLee/study_MongoDB/tree/master/B1/9) : 쿼리의 구조
+* [3.2](https://github.com/TaekGeunLee/study_MongoDB/tree/master/B1/10) : 논리, 비교연산자
 
 Ch3. 부터는 교재 실습파일을 사용한다.
 [다음 페이지](https://github.com/Karoid/MongoDB_tutorials) 에서 실습파일을 다운로드 받을 것.
