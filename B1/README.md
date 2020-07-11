@@ -17,6 +17,10 @@
 * [3.1](https://github.com/TaekGeunLee/study_MongoDB/tree/master/B1/9) : 쿼리의 구조
 * [3.2](https://github.com/TaekGeunLee/study_MongoDB/tree/master/B1/10) : 논리, 비교연산자
 * [3.3](https://github.com/TaekGeunLee/study_MongoDB/tree/master/B1/12) : 문자열 연산자
+* [3.4](https://github.com/TaekGeunLee/study_MongoDB/tree/master/B1/13) : 배열 연산자
+
+### Ch4. 집계 명령어 활용하기
+준비중 입니다
 
 Ch3. 부터는 교재 실습파일을 사용한다.
 [다음 페이지](https://github.com/Karoid/MongoDB_tutorials) 에서 실습파일을 다운로드 받을 것.
