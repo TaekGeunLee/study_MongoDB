@@ -18,6 +18,7 @@
 * [3.2](https://github.com/TaekGeunLee/study_MongoDB/tree/master/B1/10) : 논리, 비교연산자
 * [3.3](https://github.com/TaekGeunLee/study_MongoDB/tree/master/B1/12) : 문자열 연산자
 * [3.4](https://github.com/TaekGeunLee/study_MongoDB/tree/master/B1/13) : 배열 연산자
+* [3.5](https://github.com/TaekGeunLee/study_MongoDB/tree/master/B1/14) : 프로젝션 연산자
 
 ### Ch4. 집계 명령어 활용하기
 준비중 입니다

@@ -115,3 +115,76 @@ find&#40;&#41;만으로는 값들을 어떻게든 출력할 수 있다.<br />
 만약 해당 조건을 모두 만족시키도록 쿼리를 작성하려면 &#36;elemMatch를 써야 할 것이다.<br />
 물론, 그 어떠한 값도 조회되지는 않겠지만 말이다.    
 </p>
+
+### $all
+
+<p>
+$all은 순서와 관계없이 값으로 받은 모든 요소들을 지닌다면, 해당 도큐먼트를 불러온다.<br />
+입력 형식은 다음과 같다.
+</p>
+
+```javascript
+db.collection.find(
+    { $all : [<value1>, <value2>] }
+)
+```
+
+<p>
+잘 보면 논리 연산자 $and, $or, $nor 처럼 값으로 배열을 받는다는 것을 확인할 수 있다.<br />
+그냥 뜻만 봐서는 $elemMatch의 역할과 큰 차이가 없어보인다.<br />
+$elemMatch가 모든 <b>조건</b>을 만족하는 것을 조회하는 것 이라면<br /> 
+$all은 값으로 지닌 모든 <b>원소</b>를 지닌 것들 조회한다 라는 것이 차이점이다.    
+</p>
+
+<p>직접 연산자를 사용해보면 다음과 같다.</p>
+
+```javascript
+> inven.find(
+    { tags : {$all : ["blank", "red"]} }, 
+    { qty : false}
+)
+{ "_id" : ObjectId("5f0c8aa64eed560b2d2216f6"), "item" : "journal", "tags" : [ "blank", "red" ] }
+{ "_id" : ObjectId("5f0c8aa64eed560b2d2216f7"), "item" : "notebook", "tags" : [ "red", "blank" ] }
+{ "_id" : ObjectId("5f0c8aa64eed560b2d2216f8"), "item" : "paper", "tags" : [ "red", "blank" ] }
+{ "_id" : ObjectId("5f0c8aa64eed560b2d2216fa"), "item" : "postcard", "tags" : [ "blank", "red", "blue" ] }
+{ "_id" : ObjectId("5f0c8aa64eed560b2d2216fd"), "item" : "sweetBasil", "tags" : [ "yellow", "red", "blank" ] }
+```
+<p>tags 필드 값으로 "blank", "red" 원소들을 지닌 도큐먼트를 조회하는 것을 알 수 있다.</p>
+
+### $elemMatch와 $all의 조합
+
+<p>
+그렇다면 $all만으로<br /> 
+"10 초과의 원소"와 "25 미만의 원소"를 지니고 있는 배열을 가진 도큐먼트를 조회할 수 있을까?   
+</p>
+
+<p>
+조건이 붙어 있기 때문에 $all 만으로는 해당 상황을 해결할 수 없다.<br />
+조건이 붙어 있는 원소들을 포함하는 배열을 탐색하려면,<br />
+$elemMatch와 $all를 조합할 필요가 있다.    
+</p>
+
+```javascript
+number.find(
+    { qty : {$all : [{$elemMatch : {$gte:10}}, {$elemMatch : {$lte:25}}]}, item : "journal" }
+)
+{ "_id" : ObjectId("5f097853b2b8c049b821518a"), "item" : "journal", "qty" : [ 8, 36 ] }
+{ "_id" : ObjectId("5f097853b2b8c049b821518c"), "item" : "journal", "qty" : [ 26, 1, 30 ] }
+{ "_id" : ObjectId("5f097853b2b8c049b821518d"), "item" : "journal", "qty" : [ 3, 2, 1, 60 ] }
+{ "_id" : ObjectId("5f097853b2b8c049b821518e"), "item" : "journal", "qty" : [ 10, 25, 60 ] }
+```
+<p>
+쿼리 인자 객체의 첫 번째 필드(qty)를 잘 관찰해보자.<br />
+각 조건을 만족하는 원소들을 지닌 도큐먼트들을 성공적으로 조회하는 것을 관찰할 수 있다.   
+</p>
+
+<p>여기까지 배열 연산자에 관한 기록이다.</p>
+
+<p>
+배열이 없는 도큐먼트엔 무용지물 이라는 것은<br />
+배열 내의 원소를 탐색해야 할 때에는 해당 연산자를 사용해야 함을 알아두자.    
+</p>
+
+
+
+
