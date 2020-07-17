@@ -21,7 +21,7 @@
 * [3.5](https://github.com/TaekGeunLee/study_MongoDB/tree/master/B1/14) : 프로젝션 연산자
 
 ### Ch4. 집계 명령어 활용하기
-준비중 입니다
+* [4.1](https://github.com/TaekGeunLee/study_MongoDB/tree/master/B1/15) : 효과적인 집계 전략 세우기
 
 Ch3. 부터는 교재 실습파일을 사용한다.
 [다음 페이지](https://github.com/Karoid/MongoDB_tutorials) 에서 실습파일을 다운로드 받을 것.
