@@ -9,6 +9,6 @@
 
 ### Tranning
 * [A1]() : tech speech tranning
-* [A2]() : 쿼리(query) 작성 연습문제
+* [A2](https://github.com/TaekGeunLee/study_MongoDB/tree/master/A2) : 쿼리(query) 작성 연습문제
 
 

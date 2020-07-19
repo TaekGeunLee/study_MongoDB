@@ -257,9 +257,9 @@ var reducer = function(key, values) {
     return {count: counter, user_id_sum: sum}
 }
 
-var finalizer = function(key, values) {
-    values.user_id_avg = values.user_id_sum / values.count
-    return values
+var finalizer = function(key, value) {
+    value.user_id_avg = value.user_id_sum / value.count
+    return value
 }
 
 rate.mapReduce(mapper, reducer, {
@@ -271,15 +271,20 @@ rate.mapReduce(mapper, reducer, {
 });
 ```
 코드를 작성하면 다음과 같이 된다.
+각 함수에 대한 설명은 하지 않았지만
+JS 스킬의 센스가 있다면 충분히 이해할 수 있다.
 결과로 "mapReduceRating" 이라는 이름의 컬렉션이 db내에 담겨진다.
-출력해보면 다음과 같다.
+생성된 컬렉션을 조회해보면 다음과 같은 결과를 출력한다.
 
 참고로 이전 구절에서 만들었던 컬렉션과는 다르다.
 
 ```javascript
-
-
+> db.mapReduceRating.find()
+{ "_id" : 3, "value" : { "count" : 2, "user_id_sum" : 5, "user_id_avg" : 2.5 } }
+{ "_id" : 4, "value" : { "count" : 2, "user_id_sum" : 13, "user_id_avg" : 6.5 } }
 ```
+
+집계 연산 결과를 콘솔에도 한번 출력해보자.
 
 
 
