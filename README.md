@@ -6,3 +6,9 @@
 
 ### Topic selection
 
+
+### Tranning
+* [A1]() : tech speech tranning
+* [A2]() : 쿼리(query) 작성 연습문제
+
+
