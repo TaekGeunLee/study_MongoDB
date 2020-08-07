@@ -23,7 +23,8 @@
 ### Ch4. 집계 명령어 활용하기
 * [4.1](https://github.com/TaekGeunLee/study_MongoDB/tree/master/B1/15) : 효과적인 집계 전략 세우기
 * [4.2](https://github.com/TaekGeunLee/study_MongoDB/tree/master/B1/16) : 맵 리듀스(Map-reduce)
-* [4.3](https://github.com/TaekGeunLee/study_MongoDB/tree/master/B1/17) : 집계 파이프라인 스테이지 : 기본
+* [4.3.1](https://github.com/TaekGeunLee/study_MongoDB/tree/master/B1/17) : 집계 파이프라인 스테이지 : 기본
+* [4.3.2](https://github.com/TaekGeunLee/study_MongoDB/tree/master/B1/18) : 집계 파이프라인 스테이지 : 고급
 
 Ch3. 부터는 교재 실습파일을 사용한다.
 [다음 페이지](https://github.com/Karoid/MongoDB_tutorials) 에서 실습파일을 다운로드 받을 것.
