@@ -25,10 +25,14 @@
 * [4.2](https://github.com/TaekGeunLee/study_MongoDB/tree/master/B1/16) : 맵 리듀스(Map-reduce)
 * [4.3.1](https://github.com/TaekGeunLee/study_MongoDB/tree/master/B1/17) : 집계 파이프라인 스테이지 : 기본
 * [4.3.2](https://github.com/TaekGeunLee/study_MongoDB/tree/master/B1/18) : 집계 파이프라인 스테이지 : 고급
+* [4.5](https://github.com/TaekGeunLee/study_MongoDB/tree/master/B1/19) : 뷰(view)
 
 Ch3. 부터는 교재 실습파일을 사용한다.
 [다음 페이지](https://github.com/Karoid/MongoDB_tutorials) 에서 실습파일을 다운로드 받을 것.
 다운 받은 뒤 가장 내부의 파일의 install 파일을 실행합니다.
+
+### Ch5. 웹 개발 환경에 연결하기
+- 준비중 - 
 
 
 
