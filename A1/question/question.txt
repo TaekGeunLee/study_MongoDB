@@ -3,3 +3,11 @@
 3. 도큐먼트는 BSON 형식으로 구성되어 있다. JSON과의 차이점은 뭔가?
 4. 데이터 타입에 관해 묻겠다. Objectid 타입에 대해 설명해봐라.
 5. MongoDB의 가장 중요한 특징을 대봐라.
+6. NoSQL의 종류를 나열하라. MongoDB는 어느 타입의 NoSQL인가?
+7. 어떤 언어에서 MongoDB를 사용할 수 있는가?
+8. 집계 연산(aggregate)이 무엇인가? MongoDB에서 사용할 수 있는 집계 연산의
+   방법을 나열하시오.
+9. MongoDB 아키텍쳐를 간단하게 그려보시오.
+10. MongoDB에서 트랜잭션과 락킹(locking)을 하는 방법이 있을까?
+11. 스토리지 엔진(Storage Engine)이 무엇인가? MongoDB에서 사용하는 
+    2개의 엔진은 무엇일까?
