@@ -12,6 +12,16 @@ MongoDB의 특징인 샤딩과 복제에 대해 설명해라.
   연결을 옮김으로써 언제나 사용할 수 있는 상태를 유지합니다.
 
 MongoDB에서는 샤딩과 복제를 가장 중요하게 여긴다고 판단됩니다.
+#### reference
+<ul>
+    <li>서적
+        <ul>
+        <li>맛있는 MongoDB : (7~8p), (317~353p)</li>    
+        </ul>
+    </li>
+    <li>포스팅 글/API</li>
+    <li>영상</li>
+</ul>
 
 ## 2번
 NoSQL이 무엇인지에 대해 설명하고, RDBMS과의 차이점을 구술해라.
@@ -30,6 +40,17 @@ NoSQL은 보통 테이블(표) 형태의 릴레이션을 구성해서 쓰이는 
 - JOIN과 트랙잭션을 지원하지 않습니다.
   완전히 그 기능들을 사용할 수 없다는 말은 아니지만, 약간의
   제약이 따릅니다.
+#### reference
+<ul>
+    <li>서적
+        <ul>
+        <li>맛있는 MongoDB : 5~10p</li>
+        <li>Node.js 교과서 : 298~299p</li>    
+        </ul>
+    </li>
+    <li>포스팅 글/API</li>
+    <li>영상</li>
+</ul>
   
 ## 3번
 도큐먼트는 BSON 형식으로 구성되어 있다. JSON과의 차이점은 뭔가?
@@ -59,8 +80,21 @@ MongoDB의 가장 중요한 특징을 대봐라.
 - RDBMS와 같은 전통적인 DB 보다 빠른 속도와 확장성을 지님.
 - (SQL문의 역할을 담당하는) 다양한 종류의 쿼리들
 - 스키마를 만들지 않아도 되어 유동적인 데이터 모델을 지님.
-
-reference : https://www.tutorialspoint.com/mongodb/mongodb_interview_questions.htm
+#### reference
+<ul>
+    <li>서적
+        <ul>
+        <li>맛있는 MongoDB : 5~10p</li>
+        <li>Node.js 교과서 : 298~299p</li>    
+        </ul>
+    </li>
+    <li>포스팅 글/API
+        <ul>
+        <li><a href="https://www.tutorialsjar.com/key-features-of-mongodb/">tutorialsjar_key features of MongoDB</a></li>   
+        </ul>
+    </li>
+    <li>영상</li>
+</ul>
 
 ## 6번
 NoSQL의 종류를 나열하라. MongoDB는 어느 타입의 NoSQL인가?
@@ -70,6 +104,16 @@ NoSQL의 종류를 나열하라. MongoDB는 어느 타입의 NoSQL인가?
 
 ## 8번
 집계 연산(aggregate)이 무엇인가? MongoDB에서 사용할 수 있는 집계 연산의 방법을 나열하시오.
+#### reference
+<ul>
+    <li>서적
+        <ul>
+        <li>맛있는 MongoDB : 126~132p</li>    
+        </ul>
+    </li>
+    <li>포스팅 글/API</li>
+    <li>영상</li>
+</ul>
 
 ## 9번
 MongoDB 아키텍쳐를 간단하게 그려보시오.
